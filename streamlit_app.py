@@ -110,7 +110,7 @@ with st.sidebar:
     selected_drivers = st.multiselect(
         "Select Drivers",
         options=all_drivers,
-        default=all_drivers[:1], # Default to selecting the first driver
+        default=all_drivers, # Default to selecting the first driver
         key="driver_select"
     )
 
